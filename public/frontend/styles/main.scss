@@ -1,0 +1,496 @@
+body {
+    background-color:white;
+    font-family: 'Assistant', sans-serif;
+    color: #0E466E;
+}
+
+// Navbar
+.navbar{
+    height: 70px;
+}
+.btn-login {
+    background-color:#0E466E ;
+    color: white ;
+    font-size: 20px;
+    font-weight: 400;
+    &:hover{
+        background-color: #072439;
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+.btn-navbar-right{
+    margin-top:-10px !important;
+    margin-bottom: -10px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    width: 120px;
+    border-radius: 0;
+}
+.navbar-light {
+    .navbar-nav {
+        .nav-link{
+            color: #0E466E;
+            font-size: 20px;
+            font-weight:300;
+            &.active {
+                font-weight: 700;
+                color: #0E466E;
+            }
+        }
+    }
+}
+.navbar-brand {
+    img {
+        max-height: 50px;
+    }
+}
+
+// Hero Title
+header {
+    padding: 130px 0px 119px 0px;
+    background-image: url("../images/Banner.jpg");
+    margin-top: -70px;
+    color: #ffffff;
+    h1 {
+        margin-bottom: 21px;
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 45px;
+    }
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .btn-get-started {
+        background-color: #FF7E00;
+        font-family: 'Assistant', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #ffffff;
+        &:hover {
+            text-decoration: underline;
+            background-color: #E47000;
+            color: #ffffff;
+        }
+    }
+}
+
+// Stats
+.section-stats {
+    height: 100px;
+    margin-top: -50px;
+}
+.stats-detail {
+    padding-left: 50px;
+    background-color: white;
+    h2 {
+         font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+    p {
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
+// Popular header
+.section-popular {
+    background-color: #020E17;
+    height: 510px;
+    margin-top: -50px;
+    margin-bottom: -230px;
+}
+
+.section-popular-header {
+    color: white;
+    h2 {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 35px;
+        margin-top: 171px;
+    }
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top : 15px;
+    }
+}
+
+// Popular content
+.popular-content{
+    margin-top: 75px;
+    .section-popular-travel {
+        .card-travel {
+            width: 255px;
+            padding: 35px 0px 35px 0px;
+            min-height: 380px;
+            color: white;
+            margin-top: 15px;;
+            .travel-country {
+                font-size: 20px;
+                font-weight: 600;
+                }
+            .travel-location{
+                font-size: 25px;
+                font-weight: 600;
+                margin-top: 15px;
+                }            
+        }
+    }
+}
+
+.btn-view-details {
+    min-height: 45px;
+    width: 156px;
+    background-color:#FF7E00;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    &:hover {
+        text-decoration: underline;
+        background-color: #E47000;
+        color: #ffffff;
+        }
+    }
+
+// Network Content
+.section-network{
+    background-color: white;
+    margin-top: -240px;
+    padding-top: 340px;
+    h2 {
+        font-family: 'Playfair Display';
+        font-weight: 700;
+        font-size: 35px;
+    }
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top : 15px;
+    }
+}
+
+// Testimonial
+.section-testimonial {
+    width: 1366px;
+    min-height: 690px;
+    background: linear-gradient(#fff 0%, #d8d8d8 100%);
+}
+.section-testimonial-heading {
+    color: #0e466e;
+    padding-top: 90px;
+    h2 {
+        font-family: "Playfair Display";
+        font-weight: bold;
+        font-size: 35px;
+    }
+    p {
+        margin-top: 15px;
+        font-family: Assistant;
+        font-weight: normal;
+        font-size: 20px;
+    }
+}
+.section-testimonial-content {
+    margin-top: 46px;
+}
+.card-testimonial {
+    width: 352px;
+    min-height: 488px;
+    background-color:white;
+    border-radius: 20px;
+    color: #0e466e;
+    border-style: solid;
+    border-color: #DADADA;
+    .testimonial-content{
+        padding: 50px 32px 0px;
+        h3 {
+            margin-top: 20px;
+            font-family: Assistant;
+            font-weight: 700;
+            font-size: 25px;
+        }
+        p {
+            margin-top: 23px;
+            font-family: Assistant;
+            font-weight: 400;
+            font-size: 25px;
+        }
+    }
+    hr {
+        margin-top: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 2px solid #B1B1B1;
+    }
+    .trip-to {
+        font-family: Assistant;
+        font-weight: 400;
+        font-size: 25px;
+        padding-bottom: 36px;
+        margin-top: auto;
+        margin-bottom: auto;
+    } 
+
+}
+
+// Double Button
+.section-doublebutton {
+    margin-top: 130px;
+    font-family: 'Assistant', sans-serif;
+}
+.btn-ineedhelp {
+    width: 156px;
+    height: 45px;
+    margin-right: 15px;
+    background-color:#B9B6B3 ;
+    color: white ;
+    font-size: 20px;
+    font-weight: 400;
+    &:hover{
+        background-color: #848281;
+        color: white;
+        text-decoration: underline;
+    }
+}
+.btn-getstarted {
+    width: 156px;
+    height: 45px;
+    background-color: #FF7E00;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    &:hover {
+        text-decoration: underline;
+        background-color: #E47000;
+        color: #ffffff;
+    }
+}
+
+// Details Page and Chechkout
+// Details header
+.section-details-header {
+    background-color: #DADADA;
+    min-height: 278px;
+    margin-top: -70px;
+}
+// Details content
+.section-details-content {
+    margin-top: -180px;
+    min-height: 100vh;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0px;
+
+        .breadcrumb-item {
+            &.active {
+                font-weight: bold;
+                color: #0E466E;
+            } 
+        }
+    }
+}
+.card-details {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px #707070;
+    padding: 25px;
+    font-family: 'Assistant', sans-serif;
+    h1 {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    h2 {
+        
+        font-weight: 600;
+        font-size: 20px;
+    }
+    p {
+        font-weight: 300;
+        font-size: 15px;
+        color: #948F8F;  
+    }
+    .feature-image {
+        height:60px;
+        width: 60px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .description {
+        overflow: hidden;
+        padding-right: 5px;
+        h3 {
+            margin-top: 10px;
+            margin-left: 10px;
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+        p {
+            margin-left: 10px;
+            font-weight: 300;
+            font-size: 13px;
+            color: #948F8F;
+            margin-bottom: 0px;  
+        }
+    }
+    .notes {
+        background-color: #EEE8E8;
+        h2 {
+            font-size:17px ;
+            font-weight:500 ;
+        }
+        p {
+            font-size: 15px ;
+            font-weight:500 ;
+            margin-bottom: 0px;
+        }
+    }
+    .btn-addnow {
+        width: 120px;
+        background-color: #0E466E;
+        font-size: 17px;
+        font-weight: 400px;
+        color: white;
+        &:hover {
+            background-color: #072439;
+            font-size: 17px;
+            font-weight: 400px;
+            color: white;
+            text-decoration: underline;
+        }
+    }
+    .gj-datepicker {
+        .datepicker {
+            border-right: 0px;
+        }
+    }
+}
+
+.gallery {
+    .xzoom-container {
+        display: block;
+        .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+        }
+        .xactive {
+            border: 4px solid #18C818;
+            box-shadow: none;
+        }
+    }
+}
+
+.card-right {
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    .text-blue {
+        color: #0e466e;
+    }
+    .text-orange {
+        color: #FF7E00;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        color: #0e466e;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .trip-info {
+        th {
+            font-size: 20px;
+            font-weight: 500;
+        }
+        td {
+            font-size: 20px;
+            color: #948F8F;
+        }
+    }
+    .checkout-info {
+        th {
+            font-weight: 400;
+            font-size: 20px;
+        }
+        td {
+            font-weight: 500;
+            font-size: 20px;
+            color: #948F8F;
+        } 
+    }
+    .bank-item {
+        .bank-image {
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+        .description {
+            height: 80px;
+            margin-left: 90px;
+            overflow: hidden;
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            p {
+                font-size: 17px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+.btn-joinnow {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #FF7E00;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cancel-pay {
+    font-size: 25px;
+    font-weight: 600;
+    border: solid #D6D0D0;
+    border-radius: 10px;
+}
+
+// Sukses Page
+.section-sukses {
+    margin-top: -150px;
+    h1 {
+        font-weight: 700;
+        font-size: 35px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 20px; 
+    }
+    a {
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .btn-home {
+        background-color: #0e466e;
+        color: white;
+        width: 135px;
+        &:hover {
+            background-color: #072439;
+            color: white;
+            text-decoration: underline;
+        }
+    }
+}
