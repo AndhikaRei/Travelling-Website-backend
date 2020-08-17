@@ -21,8 +21,7 @@ Windows
 
 Untuk sistem operasi Windows, tools yang direkomendasikan untuk membuat aplikasi PHP dan Laravel adalah Laragon. Pada laragon, kamu juga dapat memasang aplikasi tanpa harus melakukan instalasi lewat command line
 1. Masuk ke website laragon.org lalu klik Download
-<p align="
- er"><img src="web.png" width="400"></p>
+<p align="center"><img src="web.png" width="400"></p>
 
 2. Pilih Laragon - Full
 <p align="center"><img src="full.png" width="400"></p>
@@ -142,7 +141,7 @@ Setelah command dimasukkan, akan muncul line berikut :
 Salin link yang tertera pada command line tersebut dan tempel pada address bar browser pilihan Anda.
 
 
-#### More About Laravel
+# More About Laravel
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
