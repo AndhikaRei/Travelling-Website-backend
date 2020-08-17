@@ -76,16 +76,16 @@ Apabila kamu menggunakan laragon maka laravel sudah otomatis terinstall dan kamu
 
 ### 1. Clone Repository
 
-Buka folder `C:\laragon\www` kemudian clone repository dan cd ke folder cent
+Buka folder `C:\laragon\www` kemudian clone repository dan cd ke folder {nama repository}
 ```
-git clone https://github.com/AndhikaRei/Cent.git
-cd cent
+git clone https://github.com/AndhikaRei/{nama repository}.git
+cd {nama repository}
 ```
 Sebelum melakukan ini pastikan kamu sudah menginstall git di di pc. Setelah melakukan ini file hasil dari github mestinya sudah ada di pc mu.
 
 #### 2. Install Composer dan npm dependency
 
-Untuk windows, dapat mendownload composer pada [link](https://getcomposer.org/download/) ini, kemudian ikuti langkah-langkahnya. Setelah terinstall, pindah ke directory project `cent` dan jalankan command berikut.
+Untuk windows, dapat mendownload composer pada [link](https://getcomposer.org/download/) ini, kemudian ikuti langkah-langkahnya. Setelah terinstall, pindah ke directory project  dan jalankan command berikut.
 ```
 composer install
 npm install
@@ -109,15 +109,15 @@ php artisan key:generate
 
 #### 5. Buat database baru
 
-Buka browser kemudian buka login page phpmyadmin atau `localhost/phpmyadmin`. Login dengan username root (jika masih default), kemudian tambah database baru dengan nama `{project_name}` atau `cent`.
+Buka browser kemudian buka login page phpmyadmin atau `localhost/phpmyadmin`. Login dengan username root (jika masih default), kemudian tambah database baru dengan nama `{project_name}`
 
 #### 6. Tambahkan info database di .env file
 
-Buka file `.env` kemudian ganti `DB_DATABASE` menjadi `{project_name}` atau `cent`.
+Buka file `.env` kemudian ganti `DB_DATABASE` menjadi `{project_name}` atau `.
 
 #### 7. Migrasi database
 
-Buka terminal di folder `cent` kemudian jalankan command berikut.
+Buka terminal di folder {nama repository} di dalam laragon/www kemudian jalankan command berikut.
 ```
 php artisan migrate
 ```
@@ -132,7 +132,7 @@ Command diatas akan mengisi database dengan dummy data.
 
 #### 9. Akses webpage
 
-Buka terminal di folder `cent` dan jalankan command :
+Buka terminal di folder {nama repository} dan jalankan command :
 ```
 php artisan serve
 ```
