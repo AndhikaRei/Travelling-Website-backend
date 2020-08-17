@@ -1,27 +1,5 @@
 <p align="center"><img src="boom.png" width="400"></p>
 
-Solusi dari Kelompok 24 bernama BEBAS adalah sebuah web yang beranama Cent
-
-Dengan anggota dan pembagian tugasnya adalah sebagai berikut:
-<p> Kelompok 10 Buddies 1 </p>
-	<p> 1. Nicholas Darmawan 16519009 - Front end - Dashboard </p>
-	<p> 2. Reihan Andika Putra 16519316 - Back end </p>
-	<p> 3. Kadek Dwi Bagus AU 16519350 - Back end </p>
-	<p> 4. Karel Renaldi 16519445 - Front end - Login,Register,Forget Password,finishing </p>
-	<p> 5. James Chandra 16519446 - Front end - index </p>
-	<p> 6. Muhammad Galih R R 16519455 - Front end - add data </p>
-	<p> Kelompok 8 Buddies 4 </p>
-	<p> 1. Haning Nanda H 16519004 - Penjelasan pemasangan phpMyAdmin dan Laravel</p>
-	<p> 2. M Reyhanullah B 165199306 - Penjelasan </p>
-	<p> 3. Muhammad Iqbal S 16519349 - Penjelasan cara menjalankan program</p>
-	<p> 4. Cindy Amandani N 165199410 - Penjelasan pemasangan Laragon</p>
-	<p> 5. Ilyasa Salafi Putra J 16519457 - Penjelasan akses webpage dan login</p>
-	<p> 6. Muhammad Asyrofi Al H 16519494</p>
-
-
-# Cent
-
-Cent adalah sebuah web yang membantu agar penggunanya dapat mengatur keuangan secara proporsional sehingga uang dapat digunakan dengan baik.
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
@@ -166,16 +144,3 @@ Setelah command dimasukkan, akan muncul line berikut :
 Salin link yang tertera pada command line tersebut dan tempel pada address bar browser pilihan Anda.
 
 Link tersebut akan membawa Anda menuju webpage Cent.
-
-#### 10. Login dan Registrasi
-
-Saat mengakses webpage Cent, Anda akan menemui tampilan seperti dibawah ini :
-<p align="center"><img src="centLogin.PNG"></p>
-Jika Anda sudah memiliki akun, Anda dapat memasukkan email dan password akun anda untuk melanjutkan ke webpage utama Cent.
-
-Jika Anda belum memiliki akun, Anda dapat menekan tombol Sign Up Here. Tombol ini akan membawa Anda menuju laman pendaftaran seperti berikut :
-<p align="center"><img src="register.PNG"></p>
-Masukkan data-data untuk membuat akun baru. Setelah selesai, Anda akan langsung dibawa menuju webpage utama Cent.
-Berikut tampilannya :
-<p align="center"><img src="webpage.PNG"></p>
-Dari sini, Anda dapat mengakses fitur Cent dari berbagai tombol menu yang ditampilkan. 
